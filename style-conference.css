@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:"Lato", sans-serif;  
+}
+
+header{
+    background-color: #293F50;
+    color: #648880;
+    padding-bottom: 40px;
+}
+
+
+li a{
+    list-style: none;
+    color: #648880;
+}
+
+#navbar li{
+    display: inline-block;
+    padding: 5px 0;
+    margin: 10px 18px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    padding: 80px 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 15px;
+    text-align: right;
+    font-weight: normal;
+    padding-right: 20px;
+    color: #648880;   
+}
+
+p{
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin: 40px auto 40px auto;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 15px 45px;
+    font-size: 16px; 
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+.btn a:hover{
+    color: #293F50;
+}
+
+main{ 
+    margin: 20px;
+}
+
+section{
+    width: 300px;
+    margin: 30px auto;
+    display: inline-block;
+}
+
+#first{
+    margin-left: 220px;
+}
+
+section h3{
+    color: #B2B0AD;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section h2{
+    color: #B2B0AD;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+section p{
+    color: #B2B0AD;
+    text-align: left;
+    padding-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+    padding: 10px 0;
+    
+}
+
+section img{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #293F50;
+    height: 145px;
+}
+
+footer p{
+    float: left;
+    text-transform: lowercase;
+    padding: 40px;
+    font-size: 20px;
+}
+
+#bottombar ul{ 
+    float: right;
+    margin: 20px;
+}
+
+#bottombar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    padding-top: 35px;
+}
+
+#bottombar li{
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+
+
