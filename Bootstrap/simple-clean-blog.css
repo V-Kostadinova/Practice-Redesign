@@ -1,0 +1,13 @@
+header{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0, 0.3)),url(http://www.safesurfincentral.com/wp-content/uploads/2018/01/3.jpg);
+    background-size: cover;
+    height: 660px;
+}
+
+#last{
+    margin-top: 180px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
