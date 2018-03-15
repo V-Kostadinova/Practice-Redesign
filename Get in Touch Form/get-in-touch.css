@@ -1,0 +1,102 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#wrapper{
+    margin: 20px 40px;
+    
+}
+
+form{
+    width: 60%;
+    display: inline-block;
+    padding-right: 50px; 
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.header-subbtitle{
+    font-size: 12px;
+    padding-bottom: 40px;
+}
+
+div{
+    display: inline-block;
+}
+
+label{
+    display: block;
+}
+
+.first-name,
+.last-name,
+.email,
+.phone {
+    width: 49%;
+    margin-bottom:20px;
+}
+
+
+input{
+    width: 90%;
+    padding: 10px 0;
+}
+
+textarea{
+    width: 94%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button{
+    display: block;
+    padding: 10px 35px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+.aside ul{
+    list-style: none;
+}
+
+.aside li{
+    padding: 20px;
+}
+
+.aside p{
+    font-size: 14px;
+}
+
+.aside span{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.aside i{
+    color: steelblue;
+    padding-right: 10px;
+}
+
