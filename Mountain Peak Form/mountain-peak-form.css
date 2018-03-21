@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#wrapper{
+    width: 50%;
+    height: 500px;
+    margin: 50px auto;
+}
+form{
+    border-radius: 20px;
+}
+
+#left{
+    width: 46%;
+    height: 500px;
+    float: left;
+    background: linear-gradient(rgb(245, 187, 223),rgba(0,0,0, 0.3)), url("http://cdn.delmagyar.hu/common/kepgaleria/cikk/245/2441442/660.jpg?v=1479814770") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    left: 3px;
+}
+
+
+#left h1{
+    color: #ffffff;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+#left p{
+    padding-top: 300px;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+#left i{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#right{
+    float: right; 
+    width: 53%;
+    height: 497px;
+    border: 2px solid #8B1E62;
+    border-radius: 0 20px 20px 0;
+    }
+
+#right i{
+    float: right;
+    padding: 15px;
+    color: #8B1E62;
+    font-size: 20px;
+}
+
+#right #info-form{
+    width: 65%;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+#info-form label{
+    display: block;
+}
+
+#info-form p{
+    margin-bottom: 10px;
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#info-form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 20px;
+}
+
+#info-form input::placeholder{
+    font-size: 18px;
+}
+
+#info-form button{
+    margin-top: 30px;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-shadow: gray 2px;
+    background-color: #8B1E62;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    text-shadow: 2px 1px grey;
+}
+
+#last{
+    font-size: 16px;
+    padding-left: 10px;
+    text-shadow: 1px 1px lightgrey;
+    
+}
+
+#last a{
+    color: #8B1E62;
+    font-weight: bold;
+    
+}
