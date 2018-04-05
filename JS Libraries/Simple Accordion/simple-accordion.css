@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title,
+#accordion{
+    width: 500px;
+    margin: 30px auto;
+}
+
+#title{
+    font-size: 20px;
+    color: #733837;
+}
+
+h3{
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#accordion h3{
+    background: #733837;
+    margin-bottom: 10px;
+}
+
+#accordion div{
+    padding-left: 25px;
+}
+
+#accordion div p{
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #733837;
+}
