@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@mixin list-style{
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+header img {
+  width: 150px;
+  padding: 10px 60px;
+}
+  header nav {
+    background: #EAEBEF;
+    ul{
+      padding-top: 30px;
+      padding-right: 60px;
+      float: right;
+      list-style: none;
+    }
+    ul li {
+      display: inline-block;
+      padding-left: 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: grey;
+
+    }
+  }
+
+nav ul #about-us{
+  color: #53BCC6;
+}
+
+header #cover {
+  background: url(cover.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+}
+
+header #info{
+  height: 250px;
+  background: #FAE6E7;
+  text-align: center;
+    p {
+      color: rgb(66, 62, 62);
+      font-size: 18px;
+    }
+      div {
+        width: 50%;
+        margin: auto;
+        padding: 60px 0;
+        text-align: justify;
+        background: #FAE6E7;
+      }
+}
+
+
+/****** Section Team ******/
+#team {
+  height: 600px;
+  h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+}
+
+#image-box{
+  text-align: center;
+}
+
+#team article{
+  display: inline-block;
+  width: 30%;
+}
+
+#team .small{
+  width: 15%;
+}
+
+#team .bigger{
+  width: 90%;
+}
+
+#middle {
+  margin-left: 30px;
+  p {
+    width: 50%;
+    position: relative;
+    text-align: left;
+    color: rgb(66, 62, 62);
+    font-weight: bold;
+    top: -110px;
+    left: 200px;
+  }
+}
+
+#right {
+  vertical-align: top;
+  p {
+    width: 80%;
+    text-align: left;
+    color: rgb(66, 62, 62);
+    padding-top: 20px;
+    font-weight: bold;
+  }
+}
+
+#left {
+  vertical-align: top;
+  p {
+    width: 80%;
+    text-align: left;
+    color: rgb(66, 62, 62);
+    padding-top: 20px;
+    font-weight: bold;
+  }
+}
+
+#team article img{
+  max-width: 100%;
+}
+
+
+/******** Section Two *******/
+  #section-two-box{
+    margin: 40px auto;
+    width: 70%;
+    padding-left: 40px;
+
+  }
+
+  #two div {
+    display: inline-block;
+    width: 15%;
+    padding: 20px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+/******** Footer ********/
+footer{
+  background: #EAEBEF;
+  text-align: center;
+  color: rgb(66, 62, 62);
+  font-weight: bold;
+  height: 250px;
+   div{
+  display: inline-block;
+  padding: 20px 80px;
+  padding-top: 40px;
+  }
+
+#footer-nav ul{
+  list-style: none;
+   li {
+     @include list-style;
+   }}
+
+#telephones {
+  vertical-align: top;
+  ul {
+    list-style: none;
+  }
+  li {
+    @include list-style;
+  }
+}
+
+#telephones li:first-of-type{
+  padding-bottom: 30px;
+}
+
+#address {
+  vertical-align: top;
+  ul {
+    list-style: none;
+  }
+
+  li {
+    text-align: left;
+    padding-top: 10px;
+  }
+}
+
+#address li:first-of-type{
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+#connect {
+  vertical-align: top;
+  ul {
+    list-style: none;
+  }
+  li {
+    text-align: left;
+    padding-top: 10px;
+  }
+}
+
+#connect li:first-of-type{
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+#media {
+  padding: 0;
+  margin-right: 60px;
+  padding-top: 10px;
+  li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+  }
+}}
