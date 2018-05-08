@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+h1{
+    font-size: 50px;
+    color: #EF9D9E;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    margin-top: 60px;
+}
+
+#carousel{
+    margin: 80px auto;
+}
+
