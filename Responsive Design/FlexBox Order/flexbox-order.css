@@ -1,0 +1,94 @@
+/*TODO write CSS here*/
+
+body{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+}
+
+body>*{
+    padding: 10px;
+}
+
+.header{
+    background: tomato;
+    width: 100%;
+    order: 0;
+}
+
+.aside-1{
+    background: yellow;
+    order: 1;
+    width: 23.32%;
+}
+
+.aside-2{
+    background: hotpink;
+    order: 3;
+    width: 24%;
+}
+
+.main-article{
+    background: deepskyblue;
+    text-align: left;
+    order: 2;
+    width: 48%;
+}
+
+
+.footer{
+    background: lightgreen;
+    width: 100%;
+    order: 4;
+}
+
+
+
+
+@media all and (max-width: 800px){
+    .main-article {
+        width: 100%;
+    }
+
+    .aside-1 {
+        order: 2;
+        width: 48.4%;        
+    }
+
+    .main-article {
+        order: 1;
+        
+    }
+
+    .aside-2 {
+        order: 3;
+        width: 48.4%;
+    }
+
+    .footer {
+        order: 4;
+  }
+}
+
+
+
+@media all and (max-width: 600px) {
+   .main-article{
+       width: 100%;
+       order: 1;
+   }
+
+   .aside-1{
+    width: 100%;
+    order: 2;
+   }
+
+   .aside-2{
+    width: 100%;
+    order: 3;
+   }
+
+}
